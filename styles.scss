@@ -1,0 +1,46 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+
+$main-page-width: 40%;
+$font-family: Corbel;
+$padding-top: 45%;
+$form-group-width: 350px;
+$form-group-height: 60px;
+
+body {
+  background: url("background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+.main-page {
+  background-color: $white;
+  width: $main-page-width;
+  height: 100vh;
+  margin-left: auto;
+}
+
+.move-center {
+  padding-top: $padding-top;
+}
+
+h2 {
+  font-family: $font-family;
+  font-size: $h2-font-size;
+  color: $gray-600;
+}
+
+h6 {
+  font-family: $font-family;
+  color: $red;
+}
+
+.form-group {
+  width: $form-group-width;
+  height: $form-group-height;
+}
+
+.form-control {
+  border-color: gray;
+}
